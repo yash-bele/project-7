@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+nav img:first-child {
+    margin-left: 75px;
+    width: 7%;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.nav-items h5 {
+    padding: 0px 25px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.nav-items h5:hover {
+    cursor: pointer;
+    color: #fe5e35;
+    transform: scale(1.1);
+}
+
+nav img:last-child {
+    width: 20%;
+}
+
+.intro-section {
+    display: flex;
+    align-items: flex-end;
+    margin: 0px 75px;
+    position: relative;
+    height: 32em;
+}
+
+/* Left Section */
+
+.left-section h3 {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.left-section h3 img {
+    width: 5%;
+    padding-left: 5px;
+}
+
+.left-section h1 {
+    font-size: 4em;
+    padding-bottom: 30px;
+}
+
+.sub-headlines {
+    padding-bottom: 30px;
+}
+
+.sub-headlines h5 {
+    display: flex;
+    align-items: center;
+    margin-left: 71px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sub-headlines h5 img {
+    background-color: #fe5e35;
+    border-radius: 100%;
+    padding: 5px;
+    width: 15px;
+    margin: 10px 15px;
+}
+
+.text {
+    font-size: small;
+    font-weight: 500;
+    color: #bababa;
+    max-width: 65%;
+    padding-bottom: 50px;
+}
+
+/* Right Section */
+
+.headphone-div img:last-child {
+    width: 25em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.headphone-div img:first-child {
+    position: absolute;
+    width: 8em;
+    bottom: 8em;
+    right: 19em;
+    filter: drop-shadow(-7px 1px 1px gray);
+}
+
+.discount-content {
+    position: absolute;
+    color: black;
+    bottom: 10em;
+    right: 21em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.discount-content h4 {
+    font-size: smaller;
+}
+
+.dots {
+    position: absolute;
+    bottom: 4em;
+    right: 8.4em;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 7px;
+}
+
+.dot.yellow-dot {
+    background-color: #fbd104;
+}
+
+.dot.tomato-dot {
+    background-color: #fe5e35;
+}
+
+.dot.black-dot {
+    background-color: #000000;
+}
+
+/* Buttons */
+
+button {
+    background-color: #fe5e35;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin-right: 15px;
+    font-weight: 700;
+}
+
+button:hover {
+    background-color: #f74417;
+    cursor: pointer;
+}
+
+.dots+button {
+    position: absolute;
+    margin-right: 0;
+    bottom: 0;
+    right: 9.6em;
+    border-radius: 15px;
+    padding: 10px 25px;
+}
